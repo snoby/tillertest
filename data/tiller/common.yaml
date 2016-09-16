@@ -1,0 +1,12 @@
+exec: [ "/usr/sbin/nginx" ]
+data_sources: [ file , environment ]
+template_sources: [ file ]
+
+environments:
+
+  production:
+
+    welcome.erb:
+      target: /usr/share/nginx/html/welcome.html
+
+
