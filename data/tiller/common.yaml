@@ -7,6 +7,6 @@ environments:
   production:
 
     welcome.erb:
-      target: /usr/share/nginx/html/welcome.html
+      target: /var/www/html/welcome.html
 
 
